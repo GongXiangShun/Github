@@ -52,3 +52,4 @@ BuildingEscape/Intermediate/
 BuildingEscape/Content/StarterContent/
 BuildingEscape/Binaries/
 *.VC.db
+*.ipch
