@@ -55,3 +55,4 @@ BuildingEscape/Binaries/
 *.ipch
 *.db
 *.opendb
+BuildingEscape/Saved/
