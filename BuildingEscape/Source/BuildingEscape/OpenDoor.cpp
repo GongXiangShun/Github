@@ -32,7 +32,7 @@ void UOpenDoor::OpenDoor()
 	Owner->SetActorRotation(FRotator(0.0f, OpenAngle, 0.0f));
 }
 
-void UOpenDoor::UCloseDoor()
+void UOpenDoor::CloseDoor()
 {
 	Owner->SetActorRotation(FRotator(0.0f, 0.0f, 0.0f));
 }
@@ -49,7 +49,12 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 		OpenDoor();
 		LastDoorOpenTime = GetWorld()->GetTimeSeconds();
 	}
-
+	UE_LOG(LogTemp, Warning, TEXT("Time -  %f"), LastDoorOpenTime);
+	
+	if (GetWorld()->GetTimeSeconds() - LastDoorOpenTime > DoorCloseDelay)
+	{
+		CloseDoor();
+	}
 	//Check if time to close the door
 
 	

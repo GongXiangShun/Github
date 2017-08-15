@@ -1,9 +1,9 @@
-﻿Log file open, 08/15/17 16:39:00
+﻿Log file open, 08/15/17 22:51:34
 LogInit:Display: Running engine for game: BuildingEscape
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1106740344) SRandInit(1106740345).
+LogInit:Display: RandInit(244936133) SRandInit(244936133).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 8.303574
+LogStats: Stats thread started at 0.106128
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -45,524 +45,246 @@ LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
-LogInit: Command line:  
+LogInit: Command line: 
 LogInit: Base directory: K:/Games/Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.08.15-11.09.02:327][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.15-11.09.02:327][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.15-11.09.02:467][  0]LogInit: Computer: KARAN
-[2017.08.15-11.09.02:467][  0]LogInit: User: Dhasu
-[2017.08.15-11.09.02:467][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.08.15-11.09.02:467][  0]LogInit: High frequency timer resolution =3.417970 MHz
-[2017.08.15-11.09.02:475][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2017.08.15-11.09.02:475][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.15-11.09.02:475][  0]LogMemory: Process Physical Memory: 274.45 MB used, 274.45 MB peak
-[2017.08.15-11.09.02:475][  0]LogMemory: Process Virtual Memory: 258.88 MB used, 258.88 MB peak
-[2017.08.15-11.09.02:475][  0]LogMemory: Physical Memory: 3195.39 MB used,  13137.45 MB free, 16332.85 MB total
-[2017.08.15-11.09.02:475][  0]LogMemory: Virtual Memory: 636.28 MB used,  13137.45 MB free, 134217728.00 MB total
-[2017.08.15-11.09.03:622][  0]LogInit: Using OS detected language (en-US).
-[2017.08.15-11.09.03:622][  0]LogInit: Using OS detected locale (en-US).
-[2017.08.15-11.09.03:909][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.08.15-11.09.06:785][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.15-11.09.09:715][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2017.08.15-11.09.09:715][  0]LogD3D11RHI:       4059/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.08.15-11.09.09:717][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.08.15-11.09.09:717][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.08.15-11.09.09:717][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.15-11.09.09:739][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.15-11.09.09:739][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2017.08.15-11.09.09:739][  0]LogWindows: EnumDisplayDevices:
-[2017.08.15-11.09.09:739][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2017.08.15-11.09.09:739][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.08.15-11.09.09:739][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.08.15-11.09.09:739][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.08.15-11.09.09:739][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.08.15-11.09.09:739][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2017.08.15-11.09.09:739][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
-[2017.08.15-11.09.09:739][  0]LogD3D11RHI:      Driver Date: 3-31-2017
-[2017.08.15-11.09.09:739][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.08.15-11.09.10:358][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.15-11.09.11:721][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.08.15-11.09.11:903][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../../Dhasu/Github/BuildingEscape/Intermediate/Shaders/WorkingDirectory/10380/).
-[2017.08.15-11.09.11:903][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Karanraj/AppData/Local/Temp/UnrealShaderWorkingDir/AFCDD90144546D5F1E53C7998F9BCFEF/'.
-[2017.08.15-11.09.11:924][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.08.15-11.09.26:603][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.08.15-11.09.26:648][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.08.15-11.09.26:698][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.08.15-11.09.26:748][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.08.15-11.09.26:845][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.08.15-11.09.26:890][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.15-11.09.26:932][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.15-11.09.27:008][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.15-11.09.27:084][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.08.15-11.09.27:149][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.08.15-11.09.27:252][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.08.15-11.09.27:321][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.08.15-11.09.27:392][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.08.15-11.09.27:476][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.08.15-11.09.27:536][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.08.15-11.09.27:649][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.08.15-11.09.27:649][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.08.15-11.09.27:762][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.08.15-11.09.27:963][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.08.15-11.09.27:990][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.08.15-11.09.28:051][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.08.15-11.09.28:122][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.08.15-11.09.28:178][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.08.15-11.09.28:269][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.08.15-11.09.28:269][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.08.15-11.09.30:101][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.08.15-11.10.01:708][  0]LogDerivedDataCache: Loaded boot cache 31.56s 90MB C:/Users/Karanraj/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.15-11.10.01:708][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Karanraj/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.08.15-11.10.01:708][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Dhasu/Github/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.15-11.10.01:708][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.15-11.10.01:709][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Dhasu/Github/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.15-11.10.01:709][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.15-11.10.01:792][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.15-11.10.01:841][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Karanraj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.15-11.10.01:972][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.08.15-11.10.02:048][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.15-11.10.02:161][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.15-11.10.02:161][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.15-11.10.28:913][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.15-11.10.30:346][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.08.15-11.10.31:354][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.15-11.10.31:608][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.15-11.10.31:684][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.15-11.10.31:684][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.08.15-11.10.31:684][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.08.15-11.10.38:175][  0]LogNetVersion: BuildingEscape , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 784502225)
-[2017.08.15-11.10.39:169][  0]LogAssetRegistry: FAssetRegistry took 0.3387 seconds to start up
-[2017.08.15-11.10.40:300][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.762370 seconds
-[2017.08.15-11.10.40:305][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.08.15-11.10.40:305][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.08.15-11.10.40:305][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.15-11.10.40:383][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.15-11.11.39:322][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.15-11.11.39:391][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.15-11.11.41:554][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.15-11.11.42:601][  0]SourceControl: Info Source control is disabled
-[2017.08.15-11.11.42:954][  0]SourceControl: Info Source control is disabled
-[2017.08.15-11.11.43:091][  0]SourceControl: Info Source control is disabled
-[2017.08.15-11.11.43:215][  0]SourceControl: Info Source control is disabled
-[2017.08.15-11.11.45:395][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.08.15-11.11.46:896][  0]LogEngine: Initializing Engine...
-[2017.08.15-11.11.47:292][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2017.08.15-11.11.48:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.08.15-11.11.48:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.08.15-11.11.48:523][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.08.15-11.11.48:651][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.15-11.11.48:664][  0]LogInit: FAudioDevice initialized.
-[2017.08.15-11.11.48:704][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Karanraj/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.15-11.11.48:717][  0]LogInit: Texture streaming: Enabled
-[2017.08.15-11.11.48:868][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.08.15-11.11.48:868][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={CE04CC88-421C-1A0F-A871-3C9BADB4E58A}
-[2017.08.15-11.11.49:689][  0]LogInit: Transaction tracking system initialized
-[2017.08.15-11.11.50:329][  0]BlueprintLog: New page: Editor Load
-[2017.08.15-11.11.52:408][  0]LocalizationService: Info Localization service is disabled
-[2017.08.15-11.11.53:879][  0]LogConsoleResponse:Display: 
-[2017.08.15-11.11.56:162][  0]LogFileCache: Scanning file cache for directory 'K:/Dhasu/Github/BuildingEscape/Content/' took 0.02s
-[2017.08.15-11.11.56:162][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.08.15-11.11.56:162][  0]LogCook:Display: Mobile HDR setting 1
-[2017.08.15-11.11.58:830][  0]SourceControl: Info Source control is disabled
-[2017.08.15-11.11.58:873][  0]Cmd: MAP LOAD FILE="../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.15-11.11.58:885][  0]LightingResults: New page: Lighting Build
-[2017.08.15-11.11.59:006][  0]MapCheck: New page: Map Check
-[2017.08.15-11.11.59:006][  0]LightingResults: New page: Lighting Build
-[2017.08.15-11.12.02:229][  0]LogAIModule: Creating AISystem for world NewMap
-[2017.08.15-11.12.02:481][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.15-11.12.02:531][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.15-11.12.02:586][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.808ms to complete.
-[2017.08.15-11.12.02:586][  0]LogFileHelpers: Loading map 'NewMap' took 3.721
-[2017.08.15-11.12.03:340][  0]LogCollectionManager: Loaded 0 collections in 0.001707 seconds
-[2017.08.15-11.12.03:499][  0]LogFileCache: Scanning file cache for directory 'K:/Dhasu/Github/BuildingEscape/Saved/Collections/' took 0.01s
-[2017.08.15-11.12.03:499][  0]LogFileCache: Scanning file cache for directory 'K:/Dhasu/Github/BuildingEscape/Content/Developers/Dhasu/Collections/' took 0.01s
-[2017.08.15-11.12.03:499][  0]LogFileCache: Scanning file cache for directory 'K:/Dhasu/Github/BuildingEscape/Content/Collections/' took 0.01s
-[2017.08.15-11.12.03:499][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.08.15-11.12.03:511][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2332 classes and 493 folders.
-[2017.08.15-11.12.03:641][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0021 seconds. Added 0 classes and 0 folders.
-[2017.08.15-11.12.04:596][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
-[2017.08.15-11.12.04:745][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
-[2017.08.15-11.12.05:605][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.08.15-11.12.05:732][  0]LogSlate: Took 0.015404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.15-11.12.05:737][  0]LogSlate: Took 0.003712 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.08.15-11.12.05:751][  0]LogSlate: Took 0.010077 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.08.15-11.12.06:050][  0]LogRenderer: Reallocating scene render targets to support 1288x728 NumSamples 1 (Frame:1).
-[2017.08.15-11.12.06:397][  0]LogSlate: Took 0.000764 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.15-11.12.06:537][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.08.15-11.12.06:672][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
-[2017.08.15-11.12.06:673][  0]LogLoad: (Engine Initialization) Total time: 207.98 seconds
-[2017.08.15-11.12.06:673][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.86 seconds
-[2017.08.15-11.12.06:673][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.08.15-11.12.06:673][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.08.15-11.12.06:706][  0]LogOcInput: OculusInput pre-init called
-[2017.08.15-11.12.06:707][  0]LogHMD: Starting GearVRController plugin
-[2017.08.15-11.12.06:759][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.08.15-11.12.07:235][  3]LogAssetRegistry: Asset discovery search completed in 88.0879 seconds
-[2017.08.15-11.12.07:237][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.08.15-11.12.07:237][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
-[2017.08.15-11.12.11:586][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2017.08.15-11.12.12:874][542]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Door)
-[2017.08.15-11.12.14:446][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2017.08.15-11.12.23:171][613]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.15-11.12.23:862][613]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.15-11.12.26:240][742]LogRenderer: Reallocating scene render targets to support 1368x932 NumSamples 1 (Frame:120).
-[2017.08.15-11.13.33:130][575]LogStaticMesh: Building static mesh SM_Door...
-[2017.08.15-11.13.33:193][575]LogStaticMesh: Built static mesh [0.06s] /Game/StarterContent/Props/SM_Door.SM_Door
-[2017.08.15-11.14.59:849][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Door" FILE="../../../../../../Dhasu/Github/BuildingEscape/Content/StarterContent/Props/SM_Door.uasset" SILENT=true
-[2017.08.15-11.14.59:983][389]LogSavePackage: Save=37.98ms
-[2017.08.15-11.14.59:983][389]LogSavePackage: Moving '../../../../../../Dhasu/Github/BuildingEscape/Saved/SM_Door8FC7B75349D76071136CF2B4B4E4AE98.tmp' to '../../../../../../Dhasu/Github/BuildingEscape/Content/StarterContent/Props/SM_Door.uasset'
-[2017.08.15-11.14.59:986][389]LogSavePackage:Display: Finished SavePackage ../../../../../../Dhasu/Github/BuildingEscape/Content/StarterContent/Props/SM_Door.uasset
-[2017.08.15-11.15.01:380][553]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.15-11.15.01:487][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.15-11.15.01:488][553]PIE: New page: PIE session: NewMap (Aug 15, 2017, 10:15:01 PM)
-[2017.08.15-11.15.01:488][553]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.08.15-11.15.01:490][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002517s)
-[2017.08.15-11.15.01:491][553]LogAIModule: Creating AISystem for world NewMap
-[2017.08.15-11.15.01:491][553]LogPlayLevel: PIE: World Init took: (0.000835s)
-[2017.08.15-11.15.01:491][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003576s)
-[2017.08.15-11.15.01:502][553]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.15-11.15.01:510][553]LogInit: FAudioDevice initialized.
-[2017.08.15-11.15.01:550][553]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
-[2017.08.15-11.15.01:550][553]LogLoad: Game class is 'GameModeBase'
-[2017.08.15-11.15.01:552][553]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.08.15-16.45.01
-[2017.08.15-11.15.01:553][553]LogWorld: Bringing up level for play took: 0.001190
-[2017.08.15-11.15.01:599][553]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0019 seconds. Added 11 classes and 0 folders.
-[2017.08.15-11.15.01:600][553]LogTemp:Warning: Position report SM_Chair_2 X=255.000 Y=457.000 Z=20.000
-[2017.08.15-11.15.01:600][553]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.48
-[2017.08.15-11.15.04:968][928]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.15-11.15.04:979][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.15-11.15.04:979][928]PIE: New page: PIE session: NewMap (Aug 15, 2017, 10:15:04 PM)
-[2017.08.15-11.15.04:979][928]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.08.15-11.15.04:982][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002712s)
-[2017.08.15-11.15.04:983][928]LogAIModule: Creating AISystem for world NewMap
-[2017.08.15-11.15.04:983][928]LogPlayLevel: PIE: World Init took: (0.000727s)
-[2017.08.15-11.15.04:983][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003680s)
-[2017.08.15-11.15.04:998][928]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.15-11.15.05:009][928]LogInit: FAudioDevice initialized.
-[2017.08.15-11.15.05:044][928]LogLoad: Game class is 'GameModeBase'
-[2017.08.15-11.15.05:046][928]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.08.15-16.45.05
-[2017.08.15-11.15.05:046][928]LogWorld: Bringing up level for play took: 0.001309
-[2017.08.15-11.15.05:047][928]LogTemp:Warning: Position report SM_Chair_2 X=255.000 Y=457.000 Z=20.000
-[2017.08.15-11.15.05:047][928]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.073
-[2017.08.15-11.16.17:885][ 79]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.15-11.16.17:897][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.15-11.16.17:898][ 79]PIE: New page: PIE session: NewMap (Aug 15, 2017, 10:16:17 PM)
-[2017.08.15-11.16.17:898][ 79]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.08.15-11.16.17:901][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003042s)
-[2017.08.15-11.16.17:901][ 79]LogAIModule: Creating AISystem for world NewMap
-[2017.08.15-11.16.17:902][ 79]LogPlayLevel: PIE: World Init took: (0.001007s)
-[2017.08.15-11.16.17:902][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004344s)
-[2017.08.15-11.16.17:918][ 79]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.15-11.16.17:928][ 79]LogInit: FAudioDevice initialized.
-[2017.08.15-11.16.17:959][ 79]LogLoad: Game class is 'GameModeBase'
-[2017.08.15-11.16.17:961][ 79]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.08.15-16.46.17
-[2017.08.15-11.16.17:961][ 79]LogWorld: Bringing up level for play took: 0.001209
-[2017.08.15-11.16.17:962][ 79]LogTemp:Warning: Position report SM_Chair_2 X=255.000 Y=457.000 Z=20.000
-[2017.08.15-11.16.17:962][ 79]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.842
-[2017.08.15-11.16.29:637][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.08.15-11.16.29:714][454]LogSavePackage: Save=62.71ms
-[2017.08.15-11.16.29:714][454]LogSavePackage: Moving '../../../../../../Dhasu/Github/BuildingEscape/Saved/NewMap02C3E04B49889184CD2A87972E1787E6.tmp' to '../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap.umap'
-[2017.08.15-11.16.29:718][454]LogSavePackage:Display: Finished SavePackage ../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap.umap
-[2017.08.15-11.16.29:739][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
-[2017.08.15-11.16.29:909][454]LogSavePackage: Save=130.27ms
-[2017.08.15-11.16.29:909][454]LogSavePackage: Moving '../../../../../../Dhasu/Github/BuildingEscape/Saved/NewMap_BuiltData02D4AD6D457C36E7E12E4494D6A7912A.tmp' to '../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap_BuiltData.uasset'
-[2017.08.15-11.16.29:911][454]LogSavePackage:Display: Finished SavePackage ../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap_BuiltData.uasset
-[2017.08.15-11.27.26:261][975]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
-[2017.08.15-11.28.03:285][ 95]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
-[2017.08.15-11.28.07:002][510]Cmd: DELETE
-[2017.08.15-11.28.07:002][510]Cmd: ACTOR DELETE
-[2017.08.15-11.28.07:003][510]LogEditorActor: Deleted Actor: PointLight
-[2017.08.15-11.28.07:014][510]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.08.15-11.28.28:880][943]LogSlate: Took 0.060326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.08.15-11.28.50:304][423]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.15-11.28.50:318][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.15-11.28.50:318][423]PIE: New page: PIE session: NewMap (Aug 15, 2017, 10:28:50 PM)
-[2017.08.15-11.28.50:318][423]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.08.15-11.28.50:322][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003830s)
-[2017.08.15-11.28.50:323][423]LogAIModule: Creating AISystem for world NewMap
-[2017.08.15-11.28.50:323][423]LogPlayLevel: PIE: World Init took: (0.000988s)
-[2017.08.15-11.28.50:323][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005070s)
-[2017.08.15-11.28.50:337][423]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.15-11.28.50:349][423]LogInit: FAudioDevice initialized.
-[2017.08.15-11.28.50:384][423]LogLoad: Game class is 'GameModeBase'
-[2017.08.15-11.28.50:386][423]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.08.15-16.58.50
-[2017.08.15-11.28.50:386][423]LogWorld: Bringing up level for play took: 0.001336
-[2017.08.15-11.28.50:387][423]LogTemp:Warning: Position report SM_Chair_2 X=255.000 Y=457.000 Z=20.000
-[2017.08.15-11.28.50:387][423]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.734
-[2017.08.15-11.29.06:686][242]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2017.08.15-11.29.32:501][771]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.15-11.29.32:514][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.15-11.29.32:515][771]PIE: New page: PIE session: NewMap (Aug 15, 2017, 10:29:32 PM)
-[2017.08.15-11.29.32:515][771]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.08.15-11.29.32:518][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003714s)
-[2017.08.15-11.29.32:519][771]LogAIModule: Creating AISystem for world NewMap
-[2017.08.15-11.29.32:519][771]LogPlayLevel: PIE: World Init took: (0.000959s)
-[2017.08.15-11.29.32:520][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004972s)
-[2017.08.15-11.29.32:535][771]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.15-11.29.32:547][771]LogInit: FAudioDevice initialized.
-[2017.08.15-11.29.32:582][771]LogLoad: Game class is 'GameModeBase'
-[2017.08.15-11.29.32:584][771]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.08.15-16.59.32
-[2017.08.15-11.29.32:584][771]LogWorld: Bringing up level for play took: 0.001378
-[2017.08.15-11.29.32:585][771]LogTemp:Warning: Position report SM_Chair_2 X=255.000 Y=457.000 Z=20.000
-[2017.08.15-11.29.32:585][771]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.535
-[2017.08.15-11.29.47:024][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.08.15-11.29.47:093][482]LogSavePackage: Save=55.77ms
-[2017.08.15-11.29.47:093][482]LogSavePackage: Moving '../../../../../../Dhasu/Github/BuildingEscape/Saved/NewMapF77B1EB74332FD822FCA05B226141966.tmp' to '../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap.umap'
-[2017.08.15-11.29.47:097][482]LogSavePackage:Display: Finished SavePackage ../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap.umap
-[2017.08.15-11.29.47:119][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
-[2017.08.15-11.29.47:310][482]LogSavePackage: Save=186.36ms
-[2017.08.15-11.29.47:310][482]LogSavePackage: Moving '../../../../../../Dhasu/Github/BuildingEscape/Saved/NewMap_BuiltData2312B14A415A87427651EF8A549241DF.tmp' to '../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap_BuiltData.uasset'
-[2017.08.15-11.29.47:312][482]LogSavePackage:Display: Finished SavePackage ../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap_BuiltData.uasset
-[2017.08.15-11.29.50:191][598]MapCheck: New page: Map Check
-[2017.08.15-11.29.50:200][598]LightingResults: New page: Lighting Build - Aug 15, 2017, 10:29:50 PM
-[2017.08.15-11.29.50:432][598]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.08.15-11.29.50:661][598]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.08.15-11.29.50:698][598]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.08.15-11.29.52:733][598]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.08.15-11.29.52:733][598]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10380
-[2017.08.15-11.29.57:912][598]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.08.15-11.29.57:912][598]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.08.15-11.29.57:912][598]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.08.15-11.29.57:912][598]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.08.15-11.29.57:912][598]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.08.15-11.29.57:912][598]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.08.15-11.29.58:133][598]LogEditorBuildUtils: Build time 0:07
-[2017.08.15-11.30.03:996][615]Job is a success!
-[2017.08.15-11.30.05:032][616]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2017.08.15-11.30.05:032][616]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2017.08.15-11.30.05:032][616]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2017.08.15-11.30.05:032][616]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2017.08.15-11.30.05:237][616]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
-[2017.08.15-11.30.05:237][616]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X512)
-[2017.08.15-11.30.05:281][616]Lightmass on KARAN: 5.53 sec total, 226 ms importing, 4 ms setup, 510 ms photons, 4.77 sec processing, 0 ms extra exporting [13/13 mappings]. Threads: 19.0 sec total, 9.27 sec processing.
-[2017.08.15-11.30.05:300][616]LogStaticLightingSystem: Illumination: 14.7 sec (611 ms encoding lightmaps, 204 ms encoding shadowmaps)
-[2017.08.15-11.30.05:300][616]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
-[2017.08.15-11.30.05:300][616]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.08.15-11.30.05:919][616]DumpUnbuiltLightIteractions
-[2017.08.15-11.30.05:919][616]Lights with unbuilt interactions: 0
-[2017.08.15-11.30.05:919][616]
-[2017.08.15-11.30.05:919][616]Primitives with unbuilt interactions: 0
-[2017.08.15-11.30.05:927][617]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.08.15-11.30.05:927][617]MapCheck: New page: NewMap - Aug 15, 2017, 10:30:05 PM
-[2017.08.15-11.30.06:017][617]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.149ms to complete.
-[2017.08.15-11.30.13:018][801]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2017.08.15-11.30.27:236][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.08.15-11.30.27:296][344]LogSavePackage: Save=46.56ms
-[2017.08.15-11.30.27:296][344]LogSavePackage: Moving '../../../../../../Dhasu/Github/BuildingEscape/Saved/NewMapF19FC2CA437A950E97D4D8A27164872D.tmp' to '../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap.umap'
-[2017.08.15-11.30.27:299][344]LogSavePackage:Display: Finished SavePackage ../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap.umap
-[2017.08.15-11.30.27:319][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
-[2017.08.15-11.30.27:430][344]LogSavePackage: Save=108.46ms
-[2017.08.15-11.30.27:430][344]LogSavePackage: Moving '../../../../../../Dhasu/Github/BuildingEscape/Saved/NewMap_BuiltDataA2AD530344DFB82B81AADD87C7B9C5AC.tmp' to '../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap_BuiltData.uasset'
-[2017.08.15-11.30.27:433][344]LogSavePackage:Display: Finished SavePackage ../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap_BuiltData.uasset
-[2017.08.15-11.30.31:773][825]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.15-11.30.31:785][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.15-11.30.31:785][825]PIE: New page: PIE session: NewMap (Aug 15, 2017, 10:30:31 PM)
-[2017.08.15-11.30.31:785][825]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.08.15-11.30.31:788][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003171s)
-[2017.08.15-11.30.31:789][825]LogAIModule: Creating AISystem for world NewMap
-[2017.08.15-11.30.31:789][825]LogPlayLevel: PIE: World Init took: (0.001013s)
-[2017.08.15-11.30.31:789][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004429s)
-[2017.08.15-11.30.31:801][825]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.15-11.30.31:812][825]LogInit: FAudioDevice initialized.
-[2017.08.15-11.30.31:847][825]LogLoad: Game class is 'GameModeBase'
-[2017.08.15-11.30.31:849][825]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.08.15-17.00.31
-[2017.08.15-11.30.31:849][825]LogWorld: Bringing up level for play took: 0.001447
-[2017.08.15-11.30.31:851][825]LogTemp:Warning: Position report SM_Chair_2 X=255.000 Y=457.000 Z=20.000
-[2017.08.15-11.30.31:851][825]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.73
-[2017.08.15-11.32.33:663][862]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.15-11.32.33:674][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.15-11.32.33:674][862]PIE: New page: PIE session: NewMap (Aug 15, 2017, 10:32:33 PM)
-[2017.08.15-11.32.33:674][862]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.08.15-11.32.33:677][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002940s)
-[2017.08.15-11.32.33:678][862]LogAIModule: Creating AISystem for world NewMap
-[2017.08.15-11.32.33:678][862]LogPlayLevel: PIE: World Init took: (0.000863s)
-[2017.08.15-11.32.33:678][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004045s)
-[2017.08.15-11.32.33:690][862]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.15-11.32.33:701][862]LogInit: FAudioDevice initialized.
-[2017.08.15-11.32.33:730][862]LogLoad: Game class is 'GameModeBase'
-[2017.08.15-11.32.33:732][862]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.08.15-17.02.33
-[2017.08.15-11.32.33:732][862]LogWorld: Bringing up level for play took: 0.001353
-[2017.08.15-11.32.33:733][862]LogTemp:Warning: Position report SM_Chair_2 X=255.000 Y=457.000 Z=20.000
-[2017.08.15-11.32.33:733][862]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.613
-[2017.08.15-11.32.44:003][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
-[2017.08.15-11.32.48:568][566]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.15-11.32.48:580][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.15-11.32.48:580][566]PIE: New page: PIE session: NewMap (Aug 15, 2017, 10:32:48 PM)
-[2017.08.15-11.32.48:580][566]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.08.15-11.32.48:583][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002953s)
-[2017.08.15-11.32.48:584][566]LogAIModule: Creating AISystem for world NewMap
-[2017.08.15-11.32.48:584][566]LogPlayLevel: PIE: World Init took: (0.000706s)
-[2017.08.15-11.32.48:584][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003901s)
-[2017.08.15-11.32.48:597][566]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.15-11.32.48:608][566]LogInit: FAudioDevice initialized.
-[2017.08.15-11.32.48:639][566]LogLoad: Game class is 'GameModeBase'
-[2017.08.15-11.32.48:641][566]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.08.15-17.02.48
-[2017.08.15-11.32.48:641][566]LogWorld: Bringing up level for play took: 0.001334
-[2017.08.15-11.32.48:642][566]LogTemp:Warning: Position report SM_Chair_2 X=255.000 Y=457.000 Z=20.000
-[2017.08.15-11.32.48:642][566]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.478
-[2017.08.15-11.33.10:031][595]LogHotReload: New module detected: UE4Editor-BuildingEscape-1133.dll
-[2017.08.15-11.33.10:723][598]LogHotReload: Starting Hot-Reload from IDE
-[2017.08.15-11.33.10:800][598]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0019 seconds. Added 3 classes and 2 folders.
-[2017.08.15-11.33.10:801][598]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2017.08.15-11.33.10:861][598]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2334 classes and 497 folders.
-[2017.08.15-11.33.10:864][598]Display: HotReload took  0.1s.
-[2017.08.15-11.33.48:900][950]LogHotReload: New module detected: UE4Editor-BuildingEscape-348.dll
-[2017.08.15-11.33.49:458][993]LogHotReload: Starting Hot-Reload from IDE
-[2017.08.15-11.33.49:526][993]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0021 seconds. Added 3 classes and 2 folders.
-[2017.08.15-11.33.49:528][993]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2017.08.15-11.33.49:560][993]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2334 classes and 497 folders.
-[2017.08.15-11.33.49:563][993]Display: HotReload took  0.1s.
-[2017.08.15-11.33.50:501][ 93]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.15-11.33.50:512][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.15-11.33.50:512][ 93]PIE: New page: PIE session: NewMap (Aug 15, 2017, 10:33:50 PM)
-[2017.08.15-11.33.50:512][ 93]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.08.15-11.33.50:515][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002863s)
-[2017.08.15-11.33.50:516][ 93]LogAIModule: Creating AISystem for world NewMap
-[2017.08.15-11.33.50:516][ 93]LogPlayLevel: PIE: World Init took: (0.000896s)
-[2017.08.15-11.33.50:516][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003980s)
-[2017.08.15-11.33.50:527][ 93]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.15-11.33.50:535][ 93]LogInit: FAudioDevice initialized.
-[2017.08.15-11.33.50:566][ 93]LogLoad: Game class is 'GameModeBase'
-[2017.08.15-11.33.50:568][ 93]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.08.15-17.03.50
-[2017.08.15-11.33.50:568][ 93]LogWorld: Bringing up level for play took: 0.001180
-[2017.08.15-11.33.50:569][ 93]LogTemp:Warning: Position report SM_Chair_2 X=255.000 Y=457.000 Z=20.000
-[2017.08.15-11.33.50:569][ 93]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.552
-[2017.08.15-11.34.20:632][492]LogHotReload: New module detected: UE4Editor-BuildingEscape-7456.dll
-[2017.08.15-11.34.21:187][533]LogHotReload: Starting Hot-Reload from IDE
-[2017.08.15-11.34.21:253][533]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0021 seconds. Added 3 classes and 2 folders.
-[2017.08.15-11.34.21:255][533]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2017.08.15-11.34.21:288][533]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2334 classes and 497 folders.
-[2017.08.15-11.34.21:291][533]Display: HotReload took  0.1s.
-[2017.08.15-11.34.21:837][586]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.15-11.34.21:847][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.15-11.34.21:848][586]PIE: New page: PIE session: NewMap (Aug 15, 2017, 10:34:21 PM)
-[2017.08.15-11.34.21:848][586]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.08.15-11.34.21:850][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002720s)
-[2017.08.15-11.34.21:851][586]LogAIModule: Creating AISystem for world NewMap
-[2017.08.15-11.34.21:851][586]LogPlayLevel: PIE: World Init took: (0.000740s)
-[2017.08.15-11.34.21:851][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003743s)
-[2017.08.15-11.34.21:863][586]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.15-11.34.21:871][586]LogInit: FAudioDevice initialized.
-[2017.08.15-11.34.21:905][586]LogLoad: Game class is 'GameModeBase'
-[2017.08.15-11.34.21:907][586]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.08.15-17.04.21
-[2017.08.15-11.34.21:907][586]LogWorld: Bringing up level for play took: 0.001180
-[2017.08.15-11.34.21:908][586]LogTemp:Warning: Position report SM_Chair_2 X=255.000 Y=457.000 Z=20.000
-[2017.08.15-11.34.21:908][586]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.788
-[2017.08.15-14.05.04:070][457]LogHotReload: New module detected: UE4Editor-BuildingEscape-8285.dll
-[2017.08.15-14.05.04:755][460]LogHotReload: Starting Hot-Reload from IDE
-[2017.08.15-14.05.04:840][460]LogClass: Could not find existing class OpenDoor in package /Script/BuildingEscape for HotReload, assuming new class
-[2017.08.15-14.05.04:843][460]LogHotReload: Re-instancing OpenDoor after hot-reload.
-[2017.08.15-14.05.04:986][460]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0021 seconds. Added 3 classes and 2 folders.
-[2017.08.15-14.05.04:989][460]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2017.08.15-14.05.05:028][460]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 2334 classes and 497 folders.
-[2017.08.15-14.05.05:034][460]Display: HotReload took  0.3s.
-[2017.08.15-14.05.26:179][838]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.15-14.05.26:194][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.15-14.05.26:194][838]PIE: New page: PIE session: NewMap (Aug 16, 2017, 1:05:26 AM)
-[2017.08.15-14.05.26:194][838]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.08.15-14.05.26:198][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004073s)
-[2017.08.15-14.05.26:199][838]LogAIModule: Creating AISystem for world NewMap
-[2017.08.15-14.05.26:199][838]LogPlayLevel: PIE: World Init took: (0.001023s)
-[2017.08.15-14.05.26:200][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005560s)
-[2017.08.15-14.05.26:219][838]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.15-14.05.26:236][838]LogInit: FAudioDevice initialized.
-[2017.08.15-14.05.26:268][838]LogLoad: Game class is 'GameModeBase'
-[2017.08.15-14.05.26:270][838]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.08.15-19.35.26
-[2017.08.15-14.05.26:270][838]LogWorld: Bringing up level for play took: 0.001529
-[2017.08.15-14.05.26:272][838]LogTemp:Warning: Position report SM_Chair_2 X=255.000 Y=457.000 Z=20.000
-[2017.08.15-14.05.26:272][838]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.849
-[2017.08.15-14.47.11:644][574]LogStreaming:Warning: Took 218.56ms to ProcessLoadedPackages
-[2017.08.15-16.04.50:045][225]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2017.08.15-16.04.54:173][630]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
-[2017.08.15-16.05.46:245][732]LogStats: FPlatformStackWalk::StackWalkAndDump - 50.998 s
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: === Handled ensure: ===
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: 
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: Ensure condition failed: ListenerTransformCopy.IsValid() [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Private\AudioDevice.cpp] [Line: 2286]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: Invalid listener transform provided to AudioDevice
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: Stack: 
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor-Engine.dll!FAudioDevice::SetListener() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\engine\private\audiodevice.cpp:2286]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::UpdateAudioListener() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\leveleditorviewport.cpp:4160]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FLevelEditorViewportClient::SetupViewForRendering() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\leveleditorviewport.cpp:4196]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FEditorViewportClient::Draw() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\editorviewportclient.cpp:3382]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor-Engine.dll!FViewport::Draw() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\engine\private\unrealclient.cpp:1190]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!UEditorEngine::UpdateSingleViewportClient() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:2013]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:1758]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:386]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3119]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: KERNEL32.DLL!0x00000000F55D2774
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: ntdll.dll!0x00000000F77C0D51
-[2017.08.15-16.05.46:245][732]LogOutputDevice:Error: 
-[2017.08.15-16.05.46:248][732]LogStats:                SubmitErrorReport -  0.000 s
-[2017.08.15-16.05.57:833][732]LogStats:                    SendNewReport - 11.585 s
-[2017.08.15-16.05.57:833][732]LogStats:             FDebug::EnsureFailed - 62.586 s
-[2017.08.15-16.05.59:709][733]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.864 s
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: === Handled ensure: ===
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: 
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: Ensure condition failed: Y != 0 [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Core\Private\GenericPlatform\GenericPlatformMath.cpp] [Line: 81]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: FMath::FMod(X=1206.524048, Y=-nan) : Y is zero, this is invalid and would result in NaN!
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: Stack: 
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Core.dll!FGenericPlatformMath::FmodReportError() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\genericplatform\genericplatformmath.cpp:81]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Renderer.dll!FViewInfo::CalcTranslucencyLightingVolumeBounds() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\translucentlighting.cpp:177]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Renderer.dll!FViewInfo::SetupUniformBufferParameters() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\scenerendering.cpp:763]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Renderer.dll!FProjectedShadowInfo::ModifyViewForShadow() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\shadowdepthrendering.cpp:1994]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Renderer.dll!FProjectedShadowInfo::SetupShadowDepthView() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\shadowdepthrendering.cpp:2083]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Renderer.dll!FSceneRenderer::AllocatePerObjectShadowDepthTargets() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\shadowsetup.cpp:3020]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Renderer.dll!FSceneRenderer::AllocateShadowDepthTargets() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\shadowsetup.cpp:2928]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Renderer.dll!FSceneRenderer::InitDynamicShadows() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\shadowsetup.cpp:3497]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Renderer.dll!FDeferredShadingSceneRenderer::InitViewsPossiblyAfterPrepass() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\scenevisibility.cpp:2944]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Renderer.dll!FDeferredShadingSceneRenderer::InitViews() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\scenevisibility.cpp:2904]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Renderer.dll!FDeferredShadingSceneRenderer::Render() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\deferredshadingrenderer.cpp:577]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Renderer.dll!RenderViewFamily_RenderThread() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\renderer\private\scenerendering.cpp:1821]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Renderer.dll!TGraphTask<`FRendererModule::BeginRenderingViewFamily'::`26'::EURCMacro_FDrawSceneCommand>::ExecuteTask() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:883]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:954]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:701]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-RenderCore.dll!RenderingThreadMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\rendercore\private\renderingthread.cpp:327]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-RenderCore.dll!FRenderingThread::Run() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\rendercore\private\renderingthread.cpp:461]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Core.dll!FRunnableThreadWin::Run() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsrunnablethread.cpp:76]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: UE4Editor-Core.dll!FRunnableThreadWin::GuardedRun() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsrunnablethread.cpp:33]
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: KERNEL32.DLL!0x00000000F55D2774
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: ntdll.dll!0x00000000F77C0D51
-[2017.08.15-16.05.59:709][733]LogOutputDevice:Error: 
-[2017.08.15-16.05.59:709][733]LogStats:                SubmitErrorReport -  0.000 s
-[2017.08.15-16.05.59:950][733]LogStats:                    SendNewReport -  0.241 s
-[2017.08.15-16.05.59:950][733]LogStats:             FDebug::EnsureFailed -  2.116 s
-[2017.08.15-16.14.01:329][178]LogHotReload: New module detected: UE4Editor-BuildingEscape-3542.dll
-[2017.08.15-16.14.02:004][181]LogHotReload: Starting Hot-Reload from IDE
-[2017.08.15-16.14.02:120][181]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0025 seconds. Added 3 classes and 2 folders.
-[2017.08.15-16.14.02:122][181]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2017.08.15-16.14.02:164][181]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2334 classes and 497 folders.
-[2017.08.15-16.14.02:167][181]Display: HotReload took  0.2s.
-[2017.08.15-16.14.35:659][281]LogHotReload: New module detected: UE4Editor-BuildingEscape-1922.dll
-[2017.08.15-16.14.36:011][283]LogHotReload: Starting Hot-Reload from IDE
-[2017.08.15-16.14.36:101][283]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0021 seconds. Added 3 classes and 2 folders.
-[2017.08.15-16.14.36:102][283]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2017.08.15-16.14.36:134][283]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2334 classes and 497 folders.
-[2017.08.15-16.14.36:137][283]Display: HotReload took  0.1s.
-[2017.08.15-16.14.41:766][402]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.15-16.14.41:784][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.15-16.14.41:784][402]PIE: New page: PIE session: NewMap (Aug 16, 2017, 3:14:41 AM)
-[2017.08.15-16.14.41:784][402]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.08.15-16.14.41:793][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009170s)
-[2017.08.15-16.14.41:795][402]LogAIModule: Creating AISystem for world NewMap
-[2017.08.15-16.14.41:796][402]LogPlayLevel: PIE: World Init took: (0.002321s)
-[2017.08.15-16.14.41:796][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.011844s)
-[2017.08.15-16.14.41:808][402]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.15-16.14.41:819][402]LogInit: FAudioDevice initialized.
-[2017.08.15-16.14.41:851][402]LogLoad: Game class is 'GameModeBase'
-[2017.08.15-16.14.41:854][402]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.08.15-21.44.41
-[2017.08.15-16.14.41:854][402]LogWorld: Bringing up level for play took: 0.001651
-[2017.08.15-16.14.41:855][402]LogTemp:Warning: Position report SM_Chair_2 X=255.000 Y=457.000 Z=20.000
-[2017.08.15-16.14.41:855][402]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.735
+[2017.08.15-17.21.35:590][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.15-17.21.35:590][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.15-17.21.35:600][  0]LogInit: Computer: KARAN
+[2017.08.15-17.21.35:600][  0]LogInit: User: Dhasu
+[2017.08.15-17.21.35:600][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.15-17.21.35:600][  0]LogInit: High frequency timer resolution =3.417970 MHz
+[2017.08.15-17.21.35:600][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.08.15-17.21.35:600][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.15-17.21.35:600][  0]LogMemory: Process Physical Memory: 272.46 MB used, 272.46 MB peak
+[2017.08.15-17.21.35:600][  0]LogMemory: Process Virtual Memory: 258.69 MB used, 258.69 MB peak
+[2017.08.15-17.21.35:600][  0]LogMemory: Physical Memory: 5528.44 MB used,  10804.41 MB free, 16332.85 MB total
+[2017.08.15-17.21.35:600][  0]LogMemory: Virtual Memory: 635.79 MB used,  10804.41 MB free, 134217728.00 MB total
+[2017.08.15-17.21.35:670][  0]LogInit: Using OS detected language (en-US).
+[2017.08.15-17.21.35:670][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.15-17.21.35:676][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.15-17.21.36:971][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.15-17.21.37:739][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.08.15-17.21.37:739][  0]LogD3D11RHI:       4059/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.15-17.21.37:740][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.15-17.21.37:740][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.15-17.21.37:740][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.15-17.21.37:747][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.15-17.21.37:747][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.15-17.21.37:747][  0]LogWindows: EnumDisplayDevices:
+[2017.08.15-17.21.37:747][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.08.15-17.21.37:747][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.15-17.21.37:747][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.15-17.21.37:747][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.15-17.21.37:747][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.15-17.21.37:747][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.08.15-17.21.37:747][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2017.08.15-17.21.37:747][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.08.15-17.21.37:747][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.15-17.21.38:474][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.15-17.21.38:505][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.15-17.21.38:554][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../../../Dhasu/Github/BuildingEscape/Intermediate/Shaders/WorkingDirectory/1200/).
+[2017.08.15-17.21.38:554][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Karanraj/AppData/Local/Temp/UnrealShaderWorkingDir/52A74306421B6305EB9F57846FD3906E/'.
+[2017.08.15-17.21.38:554][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.15-17.21.40:405][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.15-17.21.40:471][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.15-17.21.40:542][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.15-17.21.40:611][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.15-17.21.40:689][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.15-17.21.40:748][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.15-17.21.40:814][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.15-17.21.40:890][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.15-17.21.40:945][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.15-17.21.41:004][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.15-17.21.41:063][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.15-17.21.41:148][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.15-17.21.41:211][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.15-17.21.41:294][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.15-17.21.41:367][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.15-17.21.41:489][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.15-17.21.41:489][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.15-17.21.41:548][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.15-17.21.41:657][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.15-17.21.41:694][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.15-17.21.41:788][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.15-17.21.41:865][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.15-17.21.41:924][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.15-17.21.41:990][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.15-17.21.41:990][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.15-17.21.42:581][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.15-17.21.42:714][  0]LogDerivedDataCache: Loaded boot cache 0.13s 90MB C:/Users/Karanraj/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.15-17.21.42:714][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Karanraj/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.15-17.21.42:714][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Dhasu/Github/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.15-17.21.42:714][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.15-17.21.42:714][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Dhasu/Github/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.15-17.21.42:714][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.15-17.21.42:738][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.15-17.21.42:750][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Karanraj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.15-17.21.42:777][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.15-17.21.42:778][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.15-17.21.42:780][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.15-17.21.42:780][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.15-17.21.43:271][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.15-17.21.43:375][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.15-17.21.43:606][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.15-17.21.43:661][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.15-17.21.43:725][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.15-17.21.43:725][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.15-17.21.43:725][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.15-17.21.44:446][  0]LogNetVersion: BuildingEscape , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 784502225)
+[2017.08.15-17.21.44:517][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2017.08.15-17.21.44:580][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.043137 seconds
+[2017.08.15-17.21.44:586][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.15-17.21.44:586][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.15-17.21.44:586][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.15-17.21.44:664][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.15-17.21.47:920][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.15-17.21.47:959][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.15-17.21.48:585][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.15-17.21.49:026][  0]SourceControl: Info Source control is disabled
+[2017.08.15-17.21.49:060][  0]SourceControl: Info Source control is disabled
+[2017.08.15-17.21.49:114][  0]SourceControl: Info Source control is disabled
+[2017.08.15-17.21.49:166][  0]SourceControl: Info Source control is disabled
+[2017.08.15-17.21.49:997][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.15-17.21.50:584][  0]LogEngine: Initializing Engine...
+[2017.08.15-17.21.50:597][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.08.15-17.21.50:857][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.15-17.21.50:857][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.15-17.21.50:963][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.15-17.21.50:970][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.15-17.21.50:983][  0]LogInit: FAudioDevice initialized.
+[2017.08.15-17.21.51:040][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/Karanraj/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.15-17.21.51:054][  0]LogInit: Texture streaming: Enabled
+[2017.08.15-17.21.51:133][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.15-17.21.51:133][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={B0C073C2-4DBD-02A5-FAB8-9C97F89CBCC2}
+[2017.08.15-17.21.51:315][  0]LogInit: Transaction tracking system initialized
+[2017.08.15-17.21.51:628][  0]BlueprintLog: New page: Editor Load
+[2017.08.15-17.21.52:617][  0]LocalizationService: Info Localization service is disabled
+[2017.08.15-17.21.53:349][  0]LogConsoleResponse:Display: 
+[2017.08.15-17.21.53:528][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.15-17.21.53:528][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.15-17.21.54:717][  0]LogFileCache: Scanning file cache for directory 'K:/Dhasu/Github/BuildingEscape/Content/' took 0.01s
+[2017.08.15-17.21.54:765][  0]SourceControl: Info Source control is disabled
+[2017.08.15-17.21.54:765][  0]Cmd: MAP LOAD FILE="../../../../../../Dhasu/Github/BuildingEscape/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.15-17.21.54:765][  0]LightingResults: New page: Lighting Build
+[2017.08.15-17.21.54:805][  0]MapCheck: New page: Map Check
+[2017.08.15-17.21.54:805][  0]LightingResults: New page: Lighting Build
+[2017.08.15-17.21.55:212][  0]LogAIModule: Creating AISystem for world NewMap
+[2017.08.15-17.21.55:219][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.15-17.21.55:232][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.15-17.21.55:301][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.748ms to complete.
+[2017.08.15-17.21.55:301][  0]LogFileHelpers: Loading map 'NewMap' took 0.536
+[2017.08.15-17.21.55:447][  0]LogCollectionManager: Loaded 0 collections in 0.001841 seconds
+[2017.08.15-17.21.55:524][  0]LogFileCache: Scanning file cache for directory 'K:/Dhasu/Github/BuildingEscape/Saved/Collections/' took 0.01s
+[2017.08.15-17.21.55:524][  0]LogFileCache: Scanning file cache for directory 'K:/Dhasu/Github/BuildingEscape/Content/Developers/Dhasu/Collections/' took 0.01s
+[2017.08.15-17.21.55:524][  0]LogFileCache: Scanning file cache for directory 'K:/Dhasu/Github/BuildingEscape/Content/Collections/' took 0.01s
+[2017.08.15-17.21.55:524][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.15-17.21.55:537][  0]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2332 classes and 493 folders.
+[2017.08.15-17.21.55:603][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2017.08.15-17.21.55:675][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2017.08.15-17.21.55:720][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
+[2017.08.15-17.21.55:809][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.15-17.21.55:817][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.15-17.21.55:820][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.15-17.21.55:825][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.15-17.21.55:941][  0]LogRenderer: Reallocating scene render targets to support 1288x728 NumSamples 1 (Frame:1).
+[2017.08.15-17.21.56:009][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.15-17.21.56:084][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.15-17.21.56:149][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.08.15-17.21.56:149][  0]LogLoad: (Engine Initialization) Total time: 22.91 seconds
+[2017.08.15-17.21.56:149][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.08.15-17.21.56:149][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.15-17.21.56:149][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.15-17.21.56:488][  0]LogOcInput: OculusInput pre-init called
+[2017.08.15-17.21.56:488][  0]LogHMD: Starting GearVRController plugin
+[2017.08.15-17.21.56:505][  0]LogAssetRegistry: Asset discovery search completed in 12.0106 seconds
+[2017.08.15-17.21.56:507][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.15-17.21.56:507][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2017.08.15-17.21.56:510][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.15-17.22.00:271][378]LogHotReload: New module detected: UE4Editor-BuildingEscape-7058.dll
+[2017.08.15-17.22.00:947][432]LogHotReload: Starting Hot-Reload from IDE
+[2017.08.15-17.22.00:951][432]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.15-17.22.01:041][432]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0023 seconds. Added 3 classes and 2 folders.
+[2017.08.15-17.22.01:043][432]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.08.15-17.22.01:110][432]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2334 classes and 497 folders.
+[2017.08.15-17.22.01:114][432]Display: HotReload took  0.2s.
+[2017.08.15-17.22.03:012][627]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.15-17.22.03:035][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.15-17.22.03:035][627]PIE: New page: PIE session: NewMap (Aug 16, 2017, 4:22:03 AM)
+[2017.08.15-17.22.03:035][627]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.08.15-17.22.03:038][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002873s)
+[2017.08.15-17.22.03:039][627]LogAIModule: Creating AISystem for world NewMap
+[2017.08.15-17.22.03:039][627]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2017.08.15-17.22.03:039][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003937s)
+[2017.08.15-17.22.03:051][627]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.15-17.22.03:060][627]LogInit: FAudioDevice initialized.
+[2017.08.15-17.22.03:105][627]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.08.15-17.22.03:105][627]LogLoad: Game class is 'GameModeBase'
+[2017.08.15-17.22.03:108][627]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.08.15-22.52.03
+[2017.08.15-17.22.03:108][627]LogWorld: Bringing up level for play took: 0.001485
+[2017.08.15-17.22.03:154][627]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0019 seconds. Added 11 classes and 0 folders.
+[2017.08.15-17.22.03:155][627]LogTemp:Warning: Position report SM_Chair_2 X=255.000 Y=457.000 Z=20.000
+[2017.08.15-17.22.03:155][627]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.034
+[2017.08.15-17.22.20:405][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2017.08.15-17.22.21:658][476]LogSlate: Took 0.014844 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.15-17.22.52:935][239]LogHotReload: New module detected: UE4Editor-BuildingEscape-6304.dll
+[2017.08.15-17.22.53:286][241]LogHotReload: Starting Hot-Reload from IDE
+[2017.08.15-17.22.53:360][241]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0022 seconds. Added 3 classes and 2 folders.
+[2017.08.15-17.22.53:361][241]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.08.15-17.22.53:395][241]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2334 classes and 497 folders.
+[2017.08.15-17.22.53:398][241]Display: HotReload took  0.1s.
+[2017.08.15-17.22.56:326][397]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.15-17.22.56:338][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.15-17.22.56:338][397]PIE: New page: PIE session: NewMap (Aug 16, 2017, 4:22:56 AM)
+[2017.08.15-17.22.56:338][397]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.08.15-17.22.56:343][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004743s)
+[2017.08.15-17.22.56:344][397]LogAIModule: Creating AISystem for world NewMap
+[2017.08.15-17.22.56:344][397]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2017.08.15-17.22.56:344][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005912s)
+[2017.08.15-17.22.56:361][397]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.15-17.22.56:374][397]LogInit: FAudioDevice initialized.
+[2017.08.15-17.22.56:408][397]LogLoad: Game class is 'GameModeBase'
+[2017.08.15-17.22.56:410][397]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.08.15-22.52.56
+[2017.08.15-17.22.56:410][397]LogWorld: Bringing up level for play took: 0.001597
+[2017.08.15-17.22.56:411][397]LogTemp:Warning: Position report SM_Chair_2 X=255.000 Y=457.000 Z=20.000
+[2017.08.15-17.22.56:412][397]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.709
+[2017.08.15-17.23.03:026][397]LogCrashTracker: 
+
+
+[2017.08.15-17.23.03:026][397]LogCrashTracker: 
+
+
+[2017.08.15-17.23.03:026][397]LogWindows:Error: === Critical error: ===
+[2017.08.15-17.23.03:026][397]LogWindows:Error: 
+[2017.08.15-17.23.03:026][397]LogWindows:Error: Fatal error!
+[2017.08.15-17.23.03:026][397]LogWindows:Error: 
+[2017.08.15-17.23.03:026][397]LogWindows:Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000340
+[2017.08.15-17.23.03:026][397]LogWindows:Error: 
+[2017.08.15-17.23.03:026][397]LogWindows:Error: UE4Editor-Engine.dll!AActor::IsOverlappingActor() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\engine\private\actor.cpp:1221]
+[2017.08.15-17.23.03:026][397]LogWindows:Error: UE4Editor-BuildingEscape-6304.dll!UOpenDoor::TickComponent() [k:\dhasu\github\buildingescape\source\buildingescape\opendoor.cpp:47]
+[2017.08.15-17.23.03:026][397]LogWindows:Error: UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTickHelper<<lambda_00d9c935eb8c907965991feb76bc5b0f> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\engine\classes\gameframework\actor.h:3078]
+[2017.08.15-17.23.03:026][397]LogWindows:Error: UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\engine\private\components\actorcomponent.cpp:777]
+[2017.08.15-17.23.03:026][397]LogWindows:Error: UE4Editor-Engine.dll!FTickFunctionTask::DoTask() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:269]
+[2017.08.15-17.23.03:026][397]LogWindows:Error: UE4Editor-Engine.dll!TGraphTask<FTickFunctionTask>::ExecuteTask() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:883]
+[2017.08.15-17.23.03:026][397]LogWindows:Error: UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:954]
+[2017.08.15-17.23.03:026][397]LogWindows:Error: UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilIdle() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:716]
+[2017.08.15-17.23.03:026][397]LogWindows:Error: UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:555]
+[2017.08.15-17.23.03:026][397]LogWindows:Error: UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:1450]
+[2017.08.15-17.23.03:026][397]LogWindows:Error: UE4Editor-Engine.dll!UWorld::RunTickGroup() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\engine\private\leveltick.cpp:758]
+[2017.08.15-17.23.03:027][397]LogWindows:Error: UE4Editor-Engine.dll!UWorld::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\engine\private\leveltick.cpp:1384]
+[2017.08.15-17.23.03:027][397]LogWindows:Error: UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:1633]
+[2017.08.15-17.23.03:027][397]LogWindows:Error: UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:386]
+[2017.08.15-17.23.03:027][397]LogWindows:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3119]
+[2017.08.15-17.23.03:027][397]LogWindows:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.08.15-17.23.03:027][397]LogWindows:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.08.15-17.23.03:027][397]LogWindows:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.08.15-17.23.03:027][397]LogWindows:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.08.15-17.23.03:027][397]LogWindows:Error: KERNEL32.DLL!0x00000000F55D2774
+[2017.08.15-17.23.03:027][397]LogWindows:Error: ntdll.dll!0x00000000F77C0D51
+[2017.08.15-17.23.03:027][397]LogWindows:Error: ntdll.dll!0x00000000F77C0D51
+[2017.08.15-17.23.03:027][397]LogWindows:Error: 
+[2017.08.15-17.23.03:051][397]LogExit: Executing StaticShutdownAfterError
+[2017.08.15-17.23.03:054][397]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.08.15-17.23.03:055][397]Log file closed, 08/15/17 22:53:03
