@@ -2,6 +2,7 @@
 
 #include "Grabber.h"
 #include "DrawDebugHelpers.h"
+#include "Engine/World.h"
 
 // Sets default values for this component's properties
 UGrabber::UGrabber()
@@ -36,7 +37,7 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
 		OUT PlayerViewPointLocation,
 		OUT PlayerViewPointRotation
-		 );
+	);
 		// TODO Log out to test
 		/*UE_LOG(LogTemp, Warning, TEXT("Location: %s, Rotation: %s"),
 			*PlayerViewPointLocation.ToString(),
@@ -53,6 +54,24 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 		0.f,
 		0.f,
 		10.f
-			);
+	);
+
+	FHitResult outHit;
+
+	FCollisionQueryParams TraceParameters(FName(TEXT("")), false, GetOwner());
+
+	GetWorld()->LineTraceSingleByObjectType(
+		outHit,
+		PlayerViewPointLocation,
+		LineTraceEnd,
+		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
+		TraceParameters
+	);
+
+	AActor *ActorHit = outHit.GetActor(); 
+	if (ActorHit)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Actor hit = %s"), *(ActorHit->GetName()))
+	}
 }
 
